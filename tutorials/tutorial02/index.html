@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit/Delete</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            $("#btn1").click(function()
+            {
+                $("#tab_1").hide();
+            });
+            $("#btn2").click(function()
+            {
+                $("#tab_2").hide();
+            });
+            $("#btn3").click(function()
+            {
+                $("#tab_3").hide();
+            });
+            $("#btn4").click(function()
+            {
+                $("#tab_4").hide();
+            });
+            $("#btn5").click(function()
+            {
+                $("#tab_5").hide();
+            });
+        });
+    </script>
+<style>
+    body{
+        margin-top: 150px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <table class="table" border="1">
+            <thead class="bg-warning text-dark">
+                <tr>
+                    <td><b>No</b></td>
+                    <td><b>Name</b></td>
+                    <td><b>Email</b></td>
+                    <td><b>Age</b></td>
+                    <td><b>State</b></td>
+                    <td><b>City</b></td>
+                    <td><b>Action</b></td>
+                </tr>
+            </thead>
+            <tbody class="bg-secondary text-white">
+                <tr id="tab_1">
+                    <td>1</td>
+                    <td>khodidas</td>
+                    <td>kbuha@rku.ac.in</td>
+                    <td>21</td>
+                    <td>Gujarat</td>
+                    <td>jasdan</td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Edit</button>&nbsp;
+                        <button type="button" id="btn4" class="btn btn-success">Delete</button>
+                    </td>
+                </tr>
+                <tr id="tab_2">
+                    <td>2</td>
+                    <td>rutvik</td>
+                    <td>rhirapra713@rku.ac.in</td>
+                    <td>21</td>
+                    <td>Gujarat</td>
+                    <td>atkot</td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Edit</button>&nbsp;
+                        <button type="button" id="btn1" class="btn btn-success">Delete</button>
+                    </td>
+                </tr>
+                <tr id="tab_3">
+                    <td>3</td>
+                    <td>Harshil</td>
+                    <td>hramani450@rku.ac.in</td>
+                    <td>22</td>
+                    <td>Gujarat</td>
+                    <td>atkot/td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Edit</button>&nbsp;
+                        <button type="button" id="btn2" class="btn btn-success">Delete</button>
+                    </td>
+                </tr>
+                <tr id="tab_4">
+                    <td>4</td>
+                    <td>henil</td>
+                    <td>hbuha252@rku.ac.in</td>
+                    <td>21</td>
+                    <td>Gujarat</td>
+                    <td>gokhalana</td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Edit</button>&nbsp;
+                        <button type="button" id="btn3" class="btn btn-success">Delete</button>
+                    </td>
+                </tr>
+                <tr id="tab_5">
+                    <td>5</td>
+                    <td>gautam</td>
+                    <td>gkhorani255@rku.ac.in</td>
+                    <td>22</td>
+                    <td>Gujarat</td>
+                    <td>rajkot</td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Edit</button>&nbsp;
+                        <button type="button" id="btn5" class="btn btn-success">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>    
+</body>
+</html>
