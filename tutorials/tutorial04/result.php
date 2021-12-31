@@ -1,11 +1,11 @@
 <?php
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r($_POST);
+    // echo "</pre>";
 
-    $p = $_REQUEST['price'];
-    $r = $_REQUEST['ri'];
-    $n = $_REQUEST['year'];
+    // $p = $_REQUEST['price'];
+    // $r = $_REQUEST['ri'];
+    // $n = $_REQUEST['year'];
 
     echo $p;
     echo $r;
